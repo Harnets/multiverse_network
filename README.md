@@ -38,7 +38,7 @@ export PATH=your_directory/cmake-3.27.6-linux-x86_64/bin:$PATH
 
 # Next, you should fetch the madrona_simple_example repo:
 ```bash
-git clone --recursive git@github.com:ShawnshanksGui/multiverse_network.git
+git clone --recursive git@github.com:Harnets/multiverse_network.git
 ```
 
 # Thirdly, for Linux and MacOS: Run `cmake` and then `make` to build the simulator:
