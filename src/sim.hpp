@@ -15,6 +15,8 @@ struct Sim : public madrona::WorldBase {
     struct Config {
         uint32_t maxEpisodeLength;
         bool enableViewer;
+        uint32_t kAray; // fei add
+        uint32_t ccMethod; // fei add
     };
 
     static void registerTypes(madrona::ECSRegistry &registry,

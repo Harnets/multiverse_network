@@ -178,6 +178,8 @@ Manager::Impl * Manager::Impl::init(const Config &cfg,
     Sim::Config sim_cfg {
         .maxEpisodeLength = cfg.maxEpisodeLength,
         .enableViewer = false,
+        .kAray = cfg.kAray, //fei add 202501
+        .ccMethod = cfg.ccMethod, //fei add 202501
     };
 
     switch (cfg.execMode) {

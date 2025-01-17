@@ -22,8 +22,8 @@ public:
         madrona::ExecMode execMode;
         uint32_t numWorlds;
         int gpuID;
-        uint32_t kAray; // fei add in 20241202
-        uint32_t ccMethod; // fei add in 20241202
+        uint32_t kAray; // fei add in 202501
+        uint32_t ccMethod; // fei add in 202501
     };
 
     MGR_EXPORT Manager(const Config &cfg, const GridState &src_grid);
